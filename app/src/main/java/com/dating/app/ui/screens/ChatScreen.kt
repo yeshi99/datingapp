@@ -260,11 +260,11 @@ private fun PaywallDialog(
                 Text("开通会员后即可与心动对象畅聊", color = MaterialTheme.colorScheme.onSurfaceVariant)
                 Spacer(Modifier.height(16.dp))
                 // 会员 SKU（对应后端 skuId）
-                PaySkuRow("月度会员", "¥30 / 月", "vip_month", onPay)
+                PaySkuRow("月度会员", "¥30 / 月", "vip_month", paying, onPay)
                 Spacer(Modifier.height(8.dp))
-                PaySkuRow("季度会员", "¥68 / 季", "vip_quarter", onPay)
+                PaySkuRow("季度会员", "¥68 / 季", "vip_quarter", paying, onPay)
                 Spacer(Modifier.height(8.dp))
-                PaySkuRow("年度会员", "¥198 / 年", "vip_year", onPay)
+                PaySkuRow("年度会员", "¥198 / 年", "vip_year", paying, onPay)
                 if (paying) {
                     Spacer(Modifier.height(16.dp))
                     Row(verticalAlignment = Alignment.CenterVertically) {
@@ -283,7 +283,7 @@ private fun PaywallDialog(
 }
 
 @Composable
-private fun PaySkuRow(name: String, price: String, skuId: String, onPay: (String) -> Unit) {
+private fun PaySkuRow(name: String, price: String, skuId: String, paying: Boolean, onPay: (String) -> Unit) {
     Card(Modifier.fillMaxWidth()) {
         Row(Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
             Text(name, style = MaterialTheme.typography.titleSmall)
