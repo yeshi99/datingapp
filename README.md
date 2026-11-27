@@ -17,19 +17,28 @@
 > Base URL：`https://api.example-dating.com/v1/`（在 `data/api/ApiConfig.kt` 中替换为真实地址）
 > 统一约定：响应包装 `{ code, message, data }`，`code == 0` 为成功；鉴权头 `Authorization: Bearer <token>`
 
-### 0. 注册 / 登录（鉴权）
+### 0. 注册 / 登录（鉴权，Django DRF 实现）
 
 | Method | URL | 说明 |
 |--------|-----|------|
-| POST | `/auth/register` | 注册，body: `{"phone","password","nickname","gender"}`（gender: `MALE`/`FEMALE`），成功直接返回 token |
-| POST | `/auth/login` | 登录，body: `{"phone","password"}` |
+| POST | `/auth/register` | 注册，body: `{"username","password","nickname","gender"}`（gender: `M`/`F`，对应 WebUsers.GENDER_CHOICES） |
+| POST | `/auth/login` | 登录，body: `{"username","password"}` |
 | POST | `/auth/sms/code` | 发送短信验证码（可选，body: `{"phone"}`） |
 
-**响应 data 格式**：`{ "token": "jwt...", "userId": 1, "nickname": "小鹿" }`
+**后端实现要点**（对齐 RegisterSerializer）：
+- 字段：`username`（WebUsers.username）、`password`（write_only）、`nickname`（≤50）、`gender`（M/F）
+- 密码走 Django `validate_password`：**≥8位、非纯数字、不与账号相似**（App 端已做同样的前置校验）
+- DRF 的 400 错误响应为 `{"username": ["该字段是必填项。"], ...}` 或 `{"detail": "..."}`，App 端会解析并把字段错误显示给用户
+
+**成功返回格式**（登录/注册后前端需要拿到 token）：
+- 推荐直接返回 `{"token": "jwt...", "userId": 1, "nickname": "小鹿"}`
+- 若使用 simplejwt，返回 `{"access": "...", "refresh": "..."}` 也可，App 端会自动取 `access` 字段
+- 若注册接口只返回用户信息（无 token），App 会提示"注册成功，请登录"引导二次登录
 
 **错误码约定**：
-- `401`：登录时密码错误 / 已登录请求 token 失效（App 收到 401 会自动清除登录态，下次启动回到登录页）
-- `409`：注册时手机号已存在（App 提示"该手机号已注册，请直接登录"）
+- `401`：登录密码错误 / 已登录请求 token 失效（App 收到 401 自动清除登录态）
+- `409`：注册时账号已存在
+- `400`：DRF 字段校验失败（App 解析 error body 显示具体字段错误）
 
 ### 1. 照片管理
 

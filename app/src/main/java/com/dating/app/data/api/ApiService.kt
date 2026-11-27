@@ -1,7 +1,6 @@
 package com.dating.app.data.api
 
 import com.dating.app.data.model.ApiResponse
-import com.dating.app.data.model.AuthResponse
 import com.dating.app.data.model.Conversation
 import com.dating.app.data.model.CreateOrderResponse
 import com.dating.app.data.model.Message
@@ -43,22 +42,24 @@ interface ApiService {
 
     /**
      * 注册：POST /auth/register
-     * body: {"phone": "...", "password": "...", "nickname": "...", "gender": "MALE|FEMALE"}
-     * 成功直接返回 token（免二次登录）
+     * body: {"username","password","nickname","gender"}（gender: "M"|"F"）
+     * 密码需满足 Django validate_password：≥8位、非纯数字、不与账号相似
+     * 成功返回 token（若后端直接返回用户信息无 token，前端自动引导去登录）
      */
     @POST("auth/register")
     suspend fun register(
         @Body body: Map<String, String>
-    ): Response<ApiResponse<AuthResponse>>
+    ): Response<Map<String, Any>>
 
     /**
-     * 登录：POST /auth/login  body: {"phone": "...", "password": "..."}
+     * 登录：POST /auth/login  body: {"username","password"}
+     * 兼容多种返回：{token} / {access}（simplejwt）/ {data:{token,...}} 包装
      * 返回 { token, userId, nickname }，后续所有请求带 Authorization: Bearer <token>
      */
     @POST("auth/login")
     suspend fun login(
         @Body body: Map<String, String>
-    ): Response<ApiResponse<AuthResponse>>
+    ): Response<Map<String, Any>>
 
     // ==================== 1. 照片管理 ====================
 
