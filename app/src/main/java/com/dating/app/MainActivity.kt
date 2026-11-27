@@ -1,1 +1,182 @@
-cGFja2FnZSBjb20uZGF0aW5nLmFwcAoKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5Db21wb25lbnRBY3Rpdml0eQppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkuY29tcG9zZS5zZXRDb250ZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DaGF0QnViYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5QZXJzb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlBob3RvTGlicmFyeQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU2VhcmNoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCmltcG9ydCBhbmRyb2lkeC5uYXZpZ2F0aW9uLk5hdlR5cGUKaW1wb3J0IGFuZHJvaWR4Lm5hdmlnYXRpb24uTmF2Q29udHJvbGxlcgppbXBvcnQgYW5kcm9pZHgubmF2aWdhdGlvbi5jb21wb3NlLk5hdkhvc3QKaW1wb3J0IGFuZHJvaWR4Lm5hdmlnYXRpb24uY29tcG9zZS5jb21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5uYXZpZ2F0aW9uLmNvbXBvc2UuY3VycmVudEJhY2tTdGFja0VudHJ5QXNTdGF0ZQppbXBvcnQgYW5kcm9pZHgubmF2aWdhdGlvbi5jb21wb3NlLnJlbWVtYmVyTmF2Q29udHJvbGxlcgppbXBvcnQgYW5kcm9pZHgubmF2aWdhdGlvbi5uYXZBcmd1bWVudAppbXBvcnQgY29tLmRhdGluZy5hcHAuZGF0YS5hcGkuUmV0cm9maXRDbGllbnQKaW1wb3J0IGNvbS5kYXRpbmcuYXBwLmRhdGEuYXBpLlRva2VuU3RvcmUKaW1wb3J0IGNvbS5kYXRpbmcuYXBwLnVpLnNjcmVlbnMuQ2hhdFNjcmVlbgppbXBvcnQgY29tLmRhdGluZy5hcHAudWkuc2NyZWVucy5Db252ZXJzYXRpb25MaXN0U2NyZWVuCmltcG9ydCBjb20uZGF0aW5nLmFwcC51aS5zY3JlZW5zLkxvZ2luU2NyZWVuCmltcG9ydCBjb20uZGF0aW5nLmFwcC51aS5zY3JlZW5zLlBob3Rvc1NjcmVlbgppbXBvcnQgY29tLmRhdGluZy5hcHAudWkuc2NyZWVucy5Qcm9maWxlU2NyZWVuCmltcG9ydCBjb20uZGF0aW5nLmFwcC51aS5zY3JlZW5zLlNlYXJjaFNjcmVlbgppbXBvcnQgY29tLmRhdGluZy5hcHAudWkudGhlbWUuRGF0aW5nQXBwVGhlbWUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQoKY2xhc3MgTWFpbkFjdGl2aXR5IDogQ29tcG9uZW50QWN0aXZpdHkoKSB7CiAgICBvdmVycmlkZSBmdW4gb25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlOiBCdW5kbGU/KSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlKQogICAgICAgIC8vIOaBouWkjeaMgeS5heWMlueZu+W9leaAge+8iHRva2VuL3VzZXJJZC9uaWNrbmFtZe+8iQogICAgICAgIFRva2VuU3RvcmUuaW5pdCh0aGlzKQogICAgICAgIHNldENvbnRlbnQgewogICAgICAgICAgICBEYXRpbmdBcHBUaGVtZSB7CiAgICAgICAgICAgICAgICBBcHBTY2FmZm9sZCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZGF0YSBjbGFzcyBCb3R0b21JdGVtKHZhbCByb3V0ZTogU3RyaW5nLCB2YWwgbGFiZWw6IFN0cmluZywgdmFsIGljb246ICgpIC0+IEltYWdlVmVjdG9yKQoKcHJpdmF0ZSB2YWwgYm90dG9tSXRlbXMgPSBsaXN0T2YoCiAgICBCb3R0b21JdGVtKCJkaXNjb3ZlciIsICLlj5HnjrAiLCB7IEljb25zLkRlZmF1bHQuU2VhcmNoIH0pLAogICAgQm90dG9tSXRlbSgicHJvZmlsZV9tZSIsICLmiJHnmoQiLCB7IEljb25zLkRlZmF1bHQuUGVyc29uIH0pLAogICAgQm90dG9tSXRlbSgicGhvdG9zIiwgIueFp+eJhyIsIHsgSWNvbnMuRGVmYXVsdC5QaG90b0xpYnJhcnkgfSksCiAgICBCb3R0b21JdGVtKCJtZXNzYWdlcyIsICLmtojmga8iLCB7IEljb25zLkRlZmF1bHQuQ2hhdEJ1YmJsZSB9KSwKKQoKQENvbXBvc2FibGUKZnVuIEFwcFNjYWZmb2xkKCkgewogICAgdmFsIG5hdkNvbnRyb2xsZXIgPSByZW1lbWJlck5hdkNvbnRyb2xsZXIoKQogICAgdmFsIGJhY2tTdGFja0VudHJ5IGJ5IG5hdkNvbnRyb2xsZXIuY3VycmVudEJhY2tTdGFja0VudHJ5QXNTdGF0ZSgpCiAgICB2YWwgY3VycmVudFJvdXRlID0gYmFja1N0YWNrRW50cnk/LmRlc3RpbmF0aW9uPy5yb3V0ZQoKICAgIC8vIOeZu+W9lemhteS4juiBiuWkqeivpuaDhemhtemakOiXj+W6lemDqOWvvOiIqgogICAgdmFsIHNob3dCb3R0b21CYXIgPSBjdXJyZW50Um91dGUgIWluIHNldE9mKAogICAgICAgICJsb2dpbiIsCiAgICAgICAgImNoYXQve2NvbnZlcnNhdGlvbklkfS97cGVlck5hbWV9IgogICAgKQoKICAgIFNjYWZmb2xkKAogICAgICAgIGJvdHRvbUJhciA9IHsKICAgICAgICAgICAgaWYgKHNob3dCb3R0b21CYXIpIHsKICAgICAgICAgICAgICAgIE5hdmlnYXRpb25CYXIgewogICAgICAgICAgICAgICAgICAgIGJvdHRvbUl0ZW1zLmZvckVhY2ggeyBpdGVtIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIE5hdmlnYXRpb25CYXJJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWQgPSBjdXJyZW50Um91dGUgPT0gaXRlbS5yb3V0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmF2Q29udHJvbGxlci5uYXZpZ2F0ZShpdGVtLnJvdXRlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvcFVwVG8obmF2Q29udHJvbGxlci5ncmFwaC5zdGFydERlc3RpbmF0aW9uSWQpIHsgc2F2ZVN0YXRlID0gdHJ1ZSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhdW5jaFNpbmdsZVRvcCA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdG9yZVN0YXRlID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpY29uID0geyBJY29uKGl0ZW0uaWNvbigpLCBjb250ZW50RGVzY3JpcHRpb24gPSBpdGVtLmxhYmVsKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoaXRlbS5sYWJlbCkgfQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgKSB7IHBhZGRpbmcgLT4KICAgICAgICBOYXZIb3N0KAogICAgICAgICAgICBuYXZDb250cm9sbGVyID0gbmF2Q29udHJvbGxlciwKICAgICAgICAgICAgLy8g5bey55m75b2V55u05o6l6L+b5Li755WM6Z2i77yM5pyq55m75b2V5YWI6L+b55m75b2V6aG1CiAgICAgICAgICAgIHN0YXJ0RGVzdGluYXRpb24gPSBpZiAoVG9rZW5TdG9yZS5pc0xvZ2luKSAiZGlzY292ZXIiIGVsc2UgImxvZ2luIiwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKHBhZGRpbmcpCiAgICAgICAgKSB7CiAgICAgICAgICAgIC8vIOazqOWGjCAvIOeZu+W9le+8iOeZu+W9leaIkOWKn+WQjui/m+WFpeS4u+eVjOmdou+8jOW5tua4heaOieeZu+W9lemhtei3r+eUse+8iQogICAgICAgICAgICBjb21wb3NhYmxlKCJsb2dpbiIpIHsKICAgICAgICAgICAgICAgIExvZ2luU2NyZWVuKG9uTG9naW5TdWNjZXNzID0gewogICAgICAgICAgICAgICAgICAgIG5hdkNvbnRyb2xsZXIubmF2aWdhdGUoImRpc2NvdmVyIikgewogICAgICAgICAgICAgICAgICAgICAgICBwb3BVcFRvKCJsb2dpbiIpIHsgaW5jbHVzaXZlID0gdHJ1ZSB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDlip/og70gM++8muafpeivoueUqOaItwogICAgICAgICAgICBjb21wb3NhYmxlKCJkaXNjb3ZlciIpIHsKICAgICAgICAgICAgICAgIFNlYXJjaFNjcmVlbihvbk9wZW5Vc2VyID0geyB1c2VySWQgLT4KICAgICAgICAgICAgICAgICAgICBuYXZDb250cm9sbGVyLm5hdmlnYXRlKCJwcm9maWxlLyR1c2VySWQiKQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDlip/og70gMu+8muaIkeeahOi1hOaWmQogICAgICAgICAgICBjb21wb3NhYmxlKCJwcm9maWxlX21lIikgewogICAgICAgICAgICAgICAgUHJvZmlsZVNjcmVlbih1c2VySWQgPSBudWxsLCBvbkNoYXRXaXRoUGVlciA9IHsgLyog6Ieq5bex5LiN6IO96Lef6Ieq5bex6IGKICovIH0pCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g5Yqf6IO9IDHvvJrnhafniYfnrqHnkIYKICAgICAgICAgICAgY29tcG9zYWJsZSgicGhvdG9zIikgewogICAgICAgICAgICAgICAgUGhvdG9zU2NyZWVuKCkKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDlip/og70gNO+8muS8muivneWIl+ihqAogICAgICAgICAgICBjb21wb3NhYmxlKCJtZXNzYWdlcyIpIHsKICAgICAgICAgICAgICAgIENvbnZlcnNhdGlvbkxpc3RTY3JlZW4ob25PcGVuQ29udmVyc2F0aW9uID0geyBjb252IC0+CiAgICAgICAgICAgICAgICAgICAgbmF2Q29udHJvbGxlci5uYXZpZ2F0ZSgiY2hhdC8ke2NvbnYuaWR9LyR7Y29udi5wZWVyTmlja25hbWV9IikKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g5Yqf6IO9IDLvvJrku5bkurrotYTmlpnor6bmg4UKICAgICAgICAgICAgY29tcG9zYWJsZSgKICAgICAgICAgICAgICAgIHJvdXRlID0gInByb2ZpbGUve3VzZXJJZH0iLAogICAgICAgICAgICAgICAgYXJndW1lbnRzID0gbGlzdE9mKG5hdkFyZ3VtZW50KCJ1c2VySWQiKSB7IHR5cGUgPSBOYXZUeXBlLkxvbmdUeXBlIH0pCiAgICAgICAgICAgICkgeyBlbnRyeSAtPgogICAgICAgICAgICAgICAgdmFsIHVzZXJJZCA9IGVudHJ5LmFyZ3VtZW50cz8uZ2V0TG9uZygidXNlcklkIikgPzogMEwKICAgICAgICAgICAgICAgIFByb2ZpbGVTY3JlZW4odXNlcklkID0gdXNlcklkLCBvbkNoYXRXaXRoUGVlciA9IHsgcGVlcklkIC0+CiAgICAgICAgICAgICAgICAgICAgbmF2Q29udHJvbGxlci5uYXZpZ2F0ZSgiY2hhdF9uZXcvJHBlZXJJZCIpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOS4juaWsOWvueixoeWPkei1t+S8muivneWGjei/m+WFpeiBiuWkqemhtQogICAgICAgICAgICBjb21wb3NhYmxlKAogICAgICAgICAgICAgICAgcm91dGUgPSAiY2hhdF9uZXcve3BlZXJJZH0iLAogICAgICAgICAgICAgICAgYXJndW1lbnRzID0gbGlzdE9mKG5hdkFyZ3VtZW50KCJwZWVySWQiKSB7IHR5cGUgPSBOYXZUeXBlLkxvbmdUeXBlIH0pCiAgICAgICAgICAgICkgeyBlbnRyeSAtPgogICAgICAgICAgICAgICAgdmFsIHBlZXJJZCA9IGVudHJ5LmFyZ3VtZW50cz8uZ2V0TG9uZygicGVlcklkIikgPzogMEwKICAgICAgICAgICAgICAgIENyZWF0ZVRoZW5DaGF0KHBlZXJJZCwgbmF2Q29udHJvbGxlcikKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDogYrlpKnpobUKICAgICAgICAgICAgY29tcG9zYWJsZSgKICAgICAgICAgICAgICAgIHJvdXRlID0gImNoYXQve2NvbnZlcnNhdGlvbklkfS97cGVlck5hbWV9IiwKICAgICAgICAgICAgICAgIGFyZ3VtZW50cyA9IGxpc3RPZigKICAgICAgICAgICAgICAgICAgICBuYXZBcmd1bWVudCgiY29udmVyc2F0aW9uSWQiKSB7IHR5cGUgPSBOYXZUeXBlLkxvbmdUeXBlIH0sCiAgICAgICAgICAgICAgICAgICAgbmF2QXJndW1lbnQoInBlZXJOYW1lIikgeyB0eXBlID0gTmF2VHlwZS5TdHJpbmdUeXBlIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKSB7IGVudHJ5IC0+CiAgICAgICAgICAgICAgICBDaGF0U2NyZWVuKAogICAgICAgICAgICAgICAgICAgIGNvbnZlcnNhdGlvbklkID0gZW50cnkuYXJndW1lbnRzPy5nZXRMb25nKCJjb252ZXJzYXRpb25JZCIpID86IDBMLAogICAgICAgICAgICAgICAgICAgIHBlZXJOYW1lID0gZW50cnkuYXJndW1lbnRzPy5nZXRTdHJpbmcoInBlZXJOYW1lIikgPzogIuiBiuWkqSIsCiAgICAgICAgICAgICAgICAgICAgb25CYWNrID0geyBuYXZDb250cm9sbGVyLnBvcEJhY2tTdGFjaygpIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKLyoqIOi/m+WFpeiBiuWkqeWJjeWFiOiwgyBQT1NUIC9jb252ZXJzYXRpb25zIOW7uueri+S8muivne+8jOeEtuWQjui3s+WIsOiBiuWkqemhtSAqLwpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBDcmVhdGVUaGVuQ2hhdChwZWVySWQ6IExvbmcsIG5hdkNvbnRyb2xsZXI6IE5hdkNvbnRyb2xsZXIpIHsKICAgIExhdW5jaGVkRWZmZWN0KHBlZXJJZCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCByZXNwID0gUmV0cm9maXRDbGllbnQuYXBpLmNyZWF0ZUNvbnZlcnNhdGlvbihtYXBPZigicGVlcklkIiB0byBwZWVySWQpKQogICAgICAgICAgICB2YWwgY29udiA9IHJlc3AuYm9keSgpPy5kYXRhCiAgICAgICAgICAgIGlmIChjb252ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIG5hdkNvbnRyb2xsZXIubmF2aWdhdGUoImNoYXQvJHtjb252LmlkfS8ke2NvbnYucGVlck5pY2tuYW1lfSIpIHsKICAgICAgICAgICAgICAgICAgICBwb3BVcFRvKCJjaGF0X25ldy97cGVlcklkfSIpIHsgaW5jbHVzaXZlID0gdHJ1ZSB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBuYXZDb250cm9sbGVyLnBvcEJhY2tTdGFjaygpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgbmF2Q29udHJvbGxlci5wb3BCYWNrU3RhY2soKQogICAgICAgIH0KICAgIH0KICAgIEJveCB7fQp9Cg==
+package com.dating.app
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ChatBubble
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.PhotoLibrary
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.navigation.NavType
+import androidx.navigation.NavController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
+import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+import com.dating.app.data.api.RetrofitClient
+import com.dating.app.data.api.TokenStore
+import com.dating.app.ui.screens.ChatScreen
+import com.dating.app.ui.screens.ConversationListScreen
+import com.dating.app.ui.screens.LoginScreen
+import com.dating.app.ui.screens.PhotosScreen
+import com.dating.app.ui.screens.ProfileScreen
+import com.dating.app.ui.screens.SearchScreen
+import com.dating.app.ui.theme.DatingAppTheme
+import kotlinx.coroutines.CoroutineScope
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        // 恢复持久化登录态（token/userId/nickname）
+        TokenStore.init(this)
+        setContent {
+            DatingAppTheme {
+                AppScaffold()
+            }
+        }
+    }
+}
+
+private data class BottomItem(val route: String, val label: String, val icon: () -> ImageVector)
+
+private val bottomItems = listOf(
+    BottomItem("discover", "发现", { Icons.Default.Search }),
+    BottomItem("profile_me", "我的", { Icons.Default.Person }),
+    BottomItem("photos", "照片", { Icons.Default.PhotoLibrary }),
+    BottomItem("messages", "消息", { Icons.Default.ChatBubble }),
+)
+
+@Composable
+fun AppScaffold() {
+    val navController = rememberNavController()
+    val backStackEntry by navController.currentBackStackEntryAsState()
+    val currentRoute = backStackEntry?.destination?.route
+
+    // 登录页与聊天详情页隐藏底部导航
+    val showBottomBar = currentRoute !in setOf(
+        "login",
+        "chat/{conversationId}/{peerName}"
+    )
+
+    Scaffold(
+        bottomBar = {
+            if (showBottomBar) {
+                NavigationBar {
+                    bottomItems.forEach { item ->
+                        NavigationBarItem(
+                            selected = currentRoute == item.route,
+                            onClick = {
+                                navController.navigate(item.route) {
+                                    popUpTo(navController.graph.startDestinationId) { saveState = true }
+                                    launchSingleTop = true
+                                    restoreState = true
+                                }
+                            },
+                            icon = { Icon(item.icon(), contentDescription = item.label) },
+                            label = { Text(item.label) }
+                        )
+                    }
+                }
+            }
+        }
+    ) { padding ->
+        NavHost(
+            navController = navController,
+            // 已登录直接进主界面，未登录先进登录页
+            startDestination = if (TokenStore.isLogin) "discover" else "login",
+            modifier = Modifier.padding(padding)
+        ) {
+            // 注册 / 登录（登录成功后进入主界面，并清掉登录页路由）
+            composable("login") {
+                LoginScreen(onLoginSuccess = {
+                    navController.navigate("discover") {
+                        popUpTo("login") { inclusive = true }
+                    }
+                })
+            }
+            // 功能 3：查询用户
+            composable("discover") {
+                SearchScreen(onOpenUser = { userId ->
+                    navController.navigate("profile/$userId")
+                })
+            }
+            // 功能 2：我的资料
+            composable("profile_me") {
+                ProfileScreen(userId = null, onChatWithPeer = { /* 自己不能跟自己聊 */ })
+            }
+            // 功能 1：照片管理
+            composable("photos") {
+                PhotosScreen()
+            }
+            // 功能 4：会话列表
+            composable("messages") {
+                ConversationListScreen(onOpenConversation = { conv ->
+                    navController.navigate("chat/${conv.id}/${conv.peerNickname}")
+                })
+            }
+            // 功能 2：他人资料详情
+            composable(
+                route = "profile/{userId}",
+                arguments = listOf(navArgument("userId") { type = NavType.LongType })
+            ) { entry ->
+                val userId = entry.arguments?.getLong("userId") ?: 0L
+                ProfileScreen(userId = userId, onChatWithPeer = { peerId ->
+                    navController.navigate("chat_new/$peerId")
+                })
+            }
+            // 与新对象发起会话再进入聊天页
+            composable(
+                route = "chat_new/{peerId}",
+                arguments = listOf(navArgument("peerId") { type = NavType.LongType })
+            ) { entry ->
+                val peerId = entry.arguments?.getLong("peerId") ?: 0L
+                CreateThenChat(peerId, navController)
+            }
+            // 聊天页
+            composable(
+                route = "chat/{conversationId}/{peerName}",
+                arguments = listOf(
+                    navArgument("conversationId") { type = NavType.LongType },
+                    navArgument("peerName") { type = NavType.StringType }
+                )
+            ) { entry ->
+                ChatScreen(
+                    conversationId = entry.arguments?.getLong("conversationId") ?: 0L,
+                    peerName = entry.arguments?.getString("peerName") ?: "聊天",
+                    onBack = { navController.popBackStack() }
+                )
+            }
+        }
+    }
+}
+
+/** 进入聊天前先调 POST /conversations 建立会话，然后跳到聊天页 */
+@Composable
+private fun CreateThenChat(peerId: Long, navController: NavController) {
+    LaunchedEffect(peerId) {
+        try {
+            val resp = RetrofitClient.api.createConversation(mapOf("peerId" to peerId))
+            val conv = resp.body()?.data
+            if (conv != null) {
+                navController.navigate("chat/${conv.id}/${conv.peerNickname}") {
+                    popUpTo("chat_new/{peerId}") { inclusive = true }
+                }
+            } else {
+                navController.popBackStack()
+            }
+        } catch (e: Exception) {
+            navController.popBackStack()
+        }
+    }
+    Box {}
+}

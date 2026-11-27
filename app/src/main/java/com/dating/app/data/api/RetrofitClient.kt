@@ -1,1 +1,55 @@
-cGFja2FnZSBjb20uZGF0aW5nLmFwcC5kYXRhLmFwaQoKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLmxvZ2dpbmcuSHR0cExvZ2dpbmdJbnRlcmNlcHRvcgppbXBvcnQgcmV0cm9maXQyLlJldHJvZml0CmltcG9ydCByZXRyb2ZpdDIuY29udmVydGVyLmdzb24uR3NvbkNvbnZlcnRlckZhY3RvcnkKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CgovKiog5ZCO56uv6YWN572u77ya6IGU6LCD5pe25pu/5o2i5oiQ55yf5a6e5Zyw5Z2A5Y2z5Y+vICovCm9iamVjdCBBcGlDb25maWcgewogICAgLy8gVE9ETzog5o2i5oiQ5L2g55qE5ZCO56uv5Zyw5Z2A77yM57uT5bC+5b+F6aG75bimICIvIgogICAgY29uc3QgdmFsIEJBU0VfVVJMID0gImh0dHBzOi8vYXBpLmV4YW1wbGUtZGF0aW5nLmNvbS92MS8iCgogICAgLy8g5pys5py65qih5ouf5Zmo6IGU6LCD5Y+v55So77yaaHR0cDovLzEwLjAuMi4yOjgwODAvdjEvCn0KCm9iamVjdCBSZXRyb2ZpdENsaWVudCB7CgogICAgcHJpdmF0ZSB2YWwgb2tIdHRwOiBPa0h0dHBDbGllbnQgYnkgbGF6eSB7CiAgICAgICAgT2tIdHRwQ2xpZW50LkJ1aWxkZXIoKQogICAgICAgICAgICAuY29ubmVjdFRpbWVvdXQoMTUsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5yZWFkVGltZW91dCgzMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgLmFkZEludGVyY2VwdG9yIHsgY2hhaW4gLT4KICAgICAgICAgICAgICAgIHZhbCBidWlsZGVyID0gY2hhaW4ucmVxdWVzdCgpLm5ld0J1aWxkZXIoKQogICAgICAgICAgICAgICAgLy8g5bey55m75b2V5omN5pC65bim6Ym05p2D5aS077yb5pyq55m75b2V55qEIC9hdXRoLyog6K+35rGC55u05o6l5pS+6KGMCiAgICAgICAgICAgICAgICBpZiAoVG9rZW5TdG9yZS50b2tlbi5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICBidWlsZGVyLmFkZEhlYWRlcigiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgJHtUb2tlblN0b3JlLnRva2VufSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjaGFpbi5wcm9jZWVkKGJ1aWxkZXIuYnVpbGQoKSkKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDlhajlsYAgNDAxIOWkhOeQhu+8mnRva2VuIOWkseaViOaXtua4hemZpOeZu+W9leaAge+8iOS4i+asoeWQr+WKqOWbnuWIsOeZu+W9lemhte+8iQogICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IgeyBjaGFpbiAtPgogICAgICAgICAgICAgICAgdmFsIHJlc3BvbnNlID0gY2hhaW4ucHJvY2VlZChjaGFpbi5yZXF1ZXN0KCkpCiAgICAgICAgICAgICAgICBpZiAocmVzcG9uc2UuY29kZSA9PSA0MDEgJiYgVG9rZW5TdG9yZS5pc0xvZ2luKSB7CiAgICAgICAgICAgICAgICAgICAgVG9rZW5TdG9yZS5jbGVhcigpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXNwb25zZQogICAgICAgICAgICB9CiAgICAgICAgICAgIC5hZGRJbnRlcmNlcHRvcihIdHRwTG9nZ2luZ0ludGVyY2VwdG9yKCkuYXBwbHkgewogICAgICAgICAgICAgICAgbGV2ZWwgPSBIdHRwTG9nZ2luZ0ludGVyY2VwdG9yLkxldmVsLkJPRFkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmJ1aWxkKCkKICAgIH0KCiAgICB2YWwgYXBpOiBBcGlTZXJ2aWNlIGJ5IGxhenkgewogICAgICAgIFJldHJvZml0LkJ1aWxkZXIoKQogICAgICAgICAgICAuYmFzZVVybChBcGlDb25maWcuQkFTRV9VUkwpCiAgICAgICAgICAgIC5jbGllbnQob2tIdHRwKQogICAgICAgICAgICAuYWRkQ29udmVydGVyRmFjdG9yeShHc29uQ29udmVydGVyRmFjdG9yeS5jcmVhdGUoKSkKICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgLmNyZWF0ZShBcGlTZXJ2aWNlOjpjbGFzcy5qYXZhKQogICAgfQp9CgovKiogVG9rZW4g5a2Y5YKo5bey5ouG5YiG5Yiw54us56uL5paH5Lu2IFRva2VuU3RvcmUua3TvvIjmjIHkuYXljJYgKyDnmbvlvZXmgIHnrqHnkIbvvIkgKi8K
+package com.dating.app.data.api
+
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
+
+/** 后端配置：联调时替换成真实地址即可 */
+object ApiConfig {
+    // TODO: 换成你的后端地址，结尾必须带 "/"
+    const val BASE_URL = "https://api.example-dating.com/v1/"
+
+    // 本机模拟器联调可用：http://10.0.2.2:8080/v1/
+}
+
+object RetrofitClient {
+
+    private val okHttp: OkHttpClient by lazy {
+        OkHttpClient.Builder()
+            .connectTimeout(15, TimeUnit.SECONDS)
+            .readTimeout(30, TimeUnit.SECONDS)
+            .addInterceptor { chain ->
+                val builder = chain.request().newBuilder()
+                // 已登录才携带鉴权头；未登录的 /auth/* 请求直接放行
+                if (TokenStore.token.isNotBlank()) {
+                    builder.addHeader("Authorization", "Bearer ${TokenStore.token}")
+                }
+                chain.proceed(builder.build())
+            }
+            // 全局 401 处理：token 失效时清除登录态（下次启动回到登录页）
+            .addInterceptor { chain ->
+                val response = chain.proceed(chain.request())
+                if (response.code == 401 && TokenStore.isLogin) {
+                    TokenStore.clear()
+                }
+                response
+            }
+            .addInterceptor(HttpLoggingInterceptor().apply {
+                level = HttpLoggingInterceptor.Level.BODY
+            })
+            .build()
+    }
+
+    val api: ApiService by lazy {
+        Retrofit.Builder()
+            .baseUrl(ApiConfig.BASE_URL)
+            .client(okHttp)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(ApiService::class.java)
+    }
+}
+
+/** Token 存储已拆分到独立文件 TokenStore.kt（持久化 + 登录态管理） */

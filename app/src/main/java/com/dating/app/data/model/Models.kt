@@ -1,1 +1,88 @@
-cGFja2FnZSBjb20uZGF0aW5nLmFwcC5kYXRhLm1vZGVsCgovKiog55So5oi35L+h5oGv77yI6LWE5paZ6aG1IC8g5pCc57Si57uT5p6c6YCa55So77yJICovCmRhdGEgY2xhc3MgVXNlcigKICAgIHZhbCBpZDogTG9uZywKICAgIHZhbCBuaWNrbmFtZTogU3RyaW5nLAogICAgdmFsIGdlbmRlcjogU3RyaW5nLCAgICAgICAgICAvLyBNQUxFIC8gRkVNQUxFIC8gT1RIRVIKICAgIHZhbCBhZ2U6IEludCwKICAgIHZhbCBjaXR5OiBTdHJpbmc/LAogICAgdmFsIGJpbzogU3RyaW5nPywgICAgICAgICAgICAvLyDkuKrkurrnroDku4sKICAgIHZhbCBqb2I6IFN0cmluZz8sICAgICAgICAgICAgLy8g6IGM5LiaCiAgICB2YWwgdGFnczogTGlzdDxTdHJpbmc+PyA9IG51bGwsICAgLy8g5YW06Laj5qCH562+CiAgICB2YWwgYXZhdGFyVXJsOiBTdHJpbmc/LCAgICAgIC8vIOWktOWDj++8iOWPlueFp+eJh+WIl+ihqOesrOS4gOW8oO+8jOWQjuerr+S5n+WPr+ebtOaOpeS4i+WPke+8iQogICAgdmFsIHBob3RvczogTGlzdDxTdHJpbmc+PyA9IG51bGwsCiAgICB2YWwgaXNWaXA6IEJvb2xlYW4gPSBmYWxzZSAgIC8vIOaYr+WQpuW3suS7mOi0ueS8muWRmO+8iOWGs+WumuiDveWQpuiBiuWkqe+8iQopCgovKiog5Y2V5byg54Wn54mHICovCmRhdGEgY2xhc3MgUGhvdG8oCiAgICB2YWwgaWQ6IExvbmcsCiAgICB2YWwgdXJsOiBTdHJpbmcsCiAgICB2YWwgY3JlYXRlZEF0OiBTdHJpbmc/CikKCi8qKiDkvJror50gKi8KZGF0YSBjbGFzcyBDb252ZXJzYXRpb24oCiAgICB2YWwgaWQ6IExvbmcsCiAgICB2YWwgcGVlcklkOiBMb25nLAogICAgdmFsIHBlZXJOaWNrbmFtZTogU3RyaW5nLAogICAgdmFsIHBlZXJBdmF0YXJVcmw6IFN0cmluZz8sCiAgICB2YWwgbGFzdE1lc3NhZ2U6IFN0cmluZz8sCiAgICB2YWwgbGFzdE1lc3NhZ2VUaW1lOiBTdHJpbmc/LAogICAgdmFsIHVucmVhZENvdW50OiBJbnQgPSAwCikKCi8qKiDogYrlpKnmtojmga8gKi8KZGF0YSBjbGFzcyBNZXNzYWdlKAogICAgdmFsIGlkOiBMb25nLAogICAgdmFsIGNvbnZlcnNhdGlvbklkOiBMb25nLAogICAgdmFsIHNlbmRlcklkOiBMb25nLAogICAgdmFsIGNvbnRlbnQ6IFN0cmluZywKICAgIHZhbCBzZW50QXQ6IFN0cmluZywKICAgIHZhbCBpc01pbmU6IEJvb2xlYW4gPSBmYWxzZQopCgovKiog5Y+R6YCB5raI5oGv55qE5ZON5bqU77yI5pyq5LuY6LS55pe25ZCO56uv6L+U5ZueIDQwMu+8jOWJjeerr+aNruatpOW8ueWHuuS7mOi0ueWime+8iSAqLwpkYXRhIGNsYXNzIFNlbmRNZXNzYWdlUmVzcG9uc2UoCiAgICB2YWwgaWQ6IExvbmc/ID0gbnVsbCwKICAgIHZhbCBjb252ZXJzYXRpb25JZDogTG9uZz8gPSBudWxsLAogICAgdmFsIHNlbnRBdDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgbmVlZFBheW1lbnQ6IEJvb2xlYW4gPSBmYWxzZQopCgovKiog5pSv5LuY6K6i5Y2VICovCmRhdGEgY2xhc3MgUGF5T3JkZXIoCiAgICB2YWwgb3JkZXJJZDogU3RyaW5nLAogICAgdmFsIGFtb3VudEZlbjogSW50LCAgICAgICAgICAvLyDph5Hpop3vvIjliIbvvIkKICAgIHZhbCBzdGF0dXM6IFN0cmluZyAgICAgICAgICAgLy8gQ1JFQVRFRCAvIFBBSUQgLyBGQUlMRUQgLyBFWFBJUkVECikKCi8qKiDliJvlu7rorqLljZXlk43lupQgKi8KZGF0YSBjbGFzcyBDcmVhdGVPcmRlclJlc3BvbnNlKAogICAgdmFsIG9yZGVySWQ6IFN0cmluZywKICAgIHZhbCBhbW91bnRGZW46IEludCwKICAgIHZhbCBwYXlVcmw6IFN0cmluZz8gPSBudWxsICAgLy8g5pS26ZO25Y+w6ZO+5o6l77yI5b6u5L+hL+aUr+S7mOWuneaLiei1t++8iQopCgovKiog5rOo5YaML+eZu+W9leWTjeW6lCAqLwpkYXRhIGNsYXNzIEF1dGhSZXNwb25zZSgKICAgIHZhbCB0b2tlbjogU3RyaW5nLAogICAgdmFsIHVzZXJJZDogTG9uZywKICAgIHZhbCBuaWNrbmFtZTogU3RyaW5nPyA9IG51bGwKKQoKLyoqIOmAmueUqOWTjeW6lOWMheijhe+8iOWQjuerr+e7n+S4gOagvOW8j++8iSAqLwpkYXRhIGNsYXNzIEFwaVJlc3BvbnNlPFQ+KAogICAgdmFsIGNvZGU6IEludCwKICAgIHZhbCBtZXNzYWdlOiBTdHJpbmc/LAogICAgdmFsIGRhdGE6IFQ/CikKCi8qKiDliIbpobXlk43lupQgKi8KZGF0YSBjbGFzcyBQYWdlRGF0YTxUPigKICAgIHZhbCBsaXN0OiBMaXN0PFQ+LAogICAgdmFsIHRvdGFsOiBMb25nLAogICAgdmFsIHBhZ2U6IEludCwKICAgIHZhbCBzaXplOiBJbnQKKQo=
+package com.dating.app.data.model
+
+/** 用户信息（资料页 / 搜索结果通用） */
+data class User(
+    val id: Long,
+    val nickname: String,
+    val gender: String,          // MALE / FEMALE / OTHER
+    val age: Int,
+    val city: String?,
+    val bio: String?,            // 个人简介
+    val job: String?,            // 职业
+    val tags: List<String>? = null,   // 兴趣标签
+    val avatarUrl: String?,      // 头像（取照片列表第一张，后端也可直接下发）
+    val photos: List<String>? = null,
+    val isVip: Boolean = false   // 是否已付费会员（决定能否聊天）
+)
+
+/** 单张照片 */
+data class Photo(
+    val id: Long,
+    val url: String,
+    val createdAt: String?
+)
+
+/** 会话 */
+data class Conversation(
+    val id: Long,
+    val peerId: Long,
+    val peerNickname: String,
+    val peerAvatarUrl: String?,
+    val lastMessage: String?,
+    val lastMessageTime: String?,
+    val unreadCount: Int = 0
+)
+
+/** 聊天消息 */
+data class Message(
+    val id: Long,
+    val conversationId: Long,
+    val senderId: Long,
+    val content: String,
+    val sentAt: String,
+    val isMine: Boolean = false
+)
+
+/** 发送消息的响应（未付费时后端返回 402，前端据此弹出付费墙） */
+data class SendMessageResponse(
+    val id: Long? = null,
+    val conversationId: Long? = null,
+    val sentAt: String? = null,
+    val needPayment: Boolean = false
+)
+
+/** 支付订单 */
+data class PayOrder(
+    val orderId: String,
+    val amountFen: Int,          // 金额（分）
+    val status: String           // CREATED / PAID / FAILED / EXPIRED
+)
+
+/** 创建订单响应 */
+data class CreateOrderResponse(
+    val orderId: String,
+    val amountFen: Int,
+    val payUrl: String? = null   // 收银台链接（微信/支付宝拉起）
+)
+
+/** 注册/登录响应 */
+data class AuthResponse(
+    val token: String,
+    val userId: Long,
+    val nickname: String? = null
+)
+
+/** 通用响应包装（后端统一格式） */
+data class ApiResponse<T>(
+    val code: Int,
+    val message: String?,
+    val data: T?
+)
+
+/** 分页响应 */
+data class PageData<T>(
+    val list: List<T>,
+    val total: Long,
+    val page: Int,
+    val size: Int
+)

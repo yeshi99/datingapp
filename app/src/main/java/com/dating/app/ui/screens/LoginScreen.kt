@@ -1,1 +1,229 @@
-cGFja2FnZSBjb20uZGF0aW5nLmFwcC51aS5zY3JlZW5zCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnRleHQuS2V5Ym9hcmRPcHRpb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udmVydGljYWxTY3JvbGwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LktleWJvYXJkVHlwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LlBhc3N3b3JkVmlzdWFsVHJhbnNmb3JtYXRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5pbnB1dC5WaXN1YWxUcmFuc2Zvcm1hdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uZGF0aW5nLmFwcC5kYXRhLmFwaS5SZXRyb2ZpdENsaWVudAppbXBvcnQgY29tLmRhdGluZy5hcHAuZGF0YS5hcGkuVG9rZW5TdG9yZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqCiAqIOazqOWGjCAvIOeZu+W9lemhte+8iOacqueZu+W9leaXtuS4uuWQr+WKqOmhte+8iQogKgogKiDlkI7nq6/mjqXlj6PvvIjlsJrmnKrlrp7njrDvvIzmjIkgUkVBRE1FIOe6puWumuW8gOWPke+8ie+8mgogKiAgIFBPU1QgL2F1dGgvcmVnaXN0ZXIgIGJvZHk6IHsicGhvbmUiLCJwYXNzd29yZCIsIm5pY2tuYW1lIiwiZ2VuZGVyIn0g4oaSIHsgdG9rZW4sIHVzZXJJZCwgbmlja25hbWUgfQogKiAgIFBPU1QgL2F1dGgvbG9naW4gICAgIGJvZHk6IHsicGhvbmUiLCJwYXNzd29yZCJ9ICAgICAgICAgICAgICAgICAgICDihpIgeyB0b2tlbiwgdXNlcklkLCBuaWNrbmFtZSB9CiAqCiAqIOeZu+W9leaIkOWKn+WQjiB0b2tlbiDlrZjlhaUgVG9rZW5TdG9yZe+8iFNoYXJlZFByZWZlcmVuY2VzIOaMgeS5heWMlu+8ie+8jAogKiDkuYvlkI7miYDmnInor7fmsYLnlLEgUmV0cm9maXRDbGllbnQg5oum5oiq5Zmo6Ieq5Yqo5pC65bimIEF1dGhvcml6YXRpb246IEJlYXJlciA8dG9rZW4+CiAqLwpAQ29tcG9zYWJsZQpmdW4gTG9naW5TY3JlZW4ob25Mb2dpblN1Y2Nlc3M6ICgpIC0+IFVuaXQpIHsKICAgIHZhbCBzY29wZSA9IHJlbWVtYmVyQ29yb3V0aW5lU2NvcGUoKQoKICAgIHZhciBpc1JlZ2lzdGVyTW9kZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgcGhvbmUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQogICAgdmFyIHBhc3N3b3JkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KICAgIHZhciBjb25maXJtUGFzc3dvcmQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQogICAgdmFyIG5pY2tuYW1lIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KICAgIHZhciBnZW5kZXIgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiRkVNQUxFIikgfSAgIC8vIOazqOWGjOaXtumAieaLqQogICAgdmFyIHNob3dQYXNzd29yZCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CgogICAgdmFyIGxvYWRpbmcgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgdmFyIGVycm9yTXNnIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8U3RyaW5nPz4obnVsbCkgfQoKICAgIGZ1biBzdWJtaXQoKSB7CiAgICAgICAgLy8g5YmN56uv5Z+656GA5qCh6aqMCiAgICAgICAgaWYgKHBob25lLmxlbmd0aCA8IDExKSB7IGVycm9yTXNnID0gIuivt+i+k+WFpSAxMSDkvY3miYvmnLrlj7ciOyByZXR1cm4gfQogICAgICAgIGlmIChwYXNzd29yZC5sZW5ndGggPCA2KSB7IGVycm9yTXNnID0gIuWvhueggeiHs+WwkSA2IOS9jSI7IHJldHVybiB9CiAgICAgICAgaWYgKGlzUmVnaXN0ZXJNb2RlKSB7CiAgICAgICAgICAgIGlmIChuaWNrbmFtZS5pc0JsYW5rKCkpIHsgZXJyb3JNc2cgPSAi6K+35aGr5YaZ5pi156ewIjsgcmV0dXJuIH0KICAgICAgICAgICAgaWYgKHBhc3N3b3JkICE9IGNvbmZpcm1QYXNzd29yZCkgeyBlcnJvck1zZyA9ICLkuKTmrKHlr4bnoIHovpPlhaXkuI3kuIDoh7QiOyByZXR1cm4gfQogICAgICAgIH0KCiAgICAgICAgbG9hZGluZyA9IHRydWUKICAgICAgICBlcnJvck1zZyA9IG51bGwKICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHJlc3AgPSBpZiAoaXNSZWdpc3Rlck1vZGUpIHsKICAgICAgICAgICAgICAgICAgICBSZXRyb2ZpdENsaWVudC5hcGkucmVnaXN0ZXIoCiAgICAgICAgICAgICAgICAgICAgICAgIG1hcE9mKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInBob25lIiB0byBwaG9uZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwYXNzd29yZCIgdG8gcGFzc3dvcmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAibmlja25hbWUiIHRvIG5pY2tuYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImdlbmRlciIgdG8gZ2VuZGVyCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIFJldHJvZml0Q2xpZW50LmFwaS5sb2dpbigKICAgICAgICAgICAgICAgICAgICAgICAgbWFwT2YoInBob25lIiB0byBwaG9uZSwgInBhc3N3b3JkIiB0byBwYXNzd29yZCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgYm9keSA9IHJlc3AuYm9keSgpCiAgICAgICAgICAgICAgICB2YWwgZGF0YSA9IGJvZHk/LmRhdGEKICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgIHJlc3AuaXNTdWNjZXNzZnVsICYmIGRhdGEgIT0gbnVsbCAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRva2VuU3RvcmUuc2F2ZShkYXRhLnRva2VuLCBkYXRhLnVzZXJJZCwgZGF0YS5uaWNrbmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgb25Mb2dpblN1Y2Nlc3MoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICByZXNwLmNvZGUoKSA9PSA0MDEgLT4gZXJyb3JNc2cgPSAi5omL5py65Y+35oiW5a+G56CB6ZSZ6K+vIgogICAgICAgICAgICAgICAgICAgIHJlc3AuY29kZSgpID09IDQwOSAtPiBlcnJvck1zZyA9ICLor6XmiYvmnLrlj7flt7Lms6jlhozvvIzor7fnm7TmjqXnmbvlvZUiCiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBlcnJvck1zZyA9IGlmIChib2R5Py5tZXNzYWdlLmlzTnVsbE9yQmxhbmsoKSkKICAgICAgICAgICAgICAgICAgICAgICAgIuivt+axguWksei0pSgke3Jlc3AuY29kZSgpfSkiIGVsc2UgYm9keSEhLm1lc3NhZ2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBlcnJvck1zZyA9ICLnvZHnu5zlvILluLjvvJoke2UubWVzc2FnZX0iCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIENvbHVtbigKICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAudmVydGljYWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKQogICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMjguZHApLAogICAgICAgIGhvcml6b250YWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVySG9yaXpvbnRhbGx5CiAgICApIHsKICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDcyLmRwKSkKCiAgICAgICAgLy8gTG9nbyDljLoKICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgyNC5kcCksCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoNzIuZHApCiAgICAgICAgKSB7CiAgICAgICAgICAgIEJveChjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcikgewogICAgICAgICAgICAgICAgVGV4dCgi57yYIiwgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5oZWFkbGluZUxhcmdlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMTIuZHApKQogICAgICAgIFRleHQoIue8mOWIhiIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmhlYWRsaW5lTWVkaXVtKQogICAgICAgIFRleHQoIumBh+ingeWvueeahOS6uiIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50KQoKICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDMyLmRwKSkKCiAgICAgICAgLy8g55m75b2VIC8g5rOo5YaMIOWIh+aNogogICAgICAgIFRhYlJvdygKICAgICAgICAgICAgc2VsZWN0ZWRUYWJJbmRleCA9IGlmIChpc1JlZ2lzdGVyTW9kZSkgMSBlbHNlIDAsCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICApIHsKICAgICAgICAgICAgVGFiKHNlbGVjdGVkID0gIWlzUmVnaXN0ZXJNb2RlLCBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgaXNSZWdpc3Rlck1vZGUgPSBmYWxzZTsgZXJyb3JNc2cgPSBudWxsCiAgICAgICAgICAgIH0sIHRleHQgPSB7IFRleHQoIueZu+W9lSIpIH0pCiAgICAgICAgICAgIFRhYihzZWxlY3RlZCA9IGlzUmVnaXN0ZXJNb2RlLCBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgaXNSZWdpc3Rlck1vZGUgPSB0cnVlOyBlcnJvck1zZyA9IG51bGwKICAgICAgICAgICAgfSwgdGV4dCA9IHsgVGV4dCgi5rOo5YaMIikgfSkKICAgICAgICB9CgogICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMjAuZHApKQoKICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgdmFsdWUgPSBwaG9uZSwKICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgcGhvbmUgPSBpdC5maWx0ZXIgeyBjIC0+IGMuaXNEaWdpdCgpIH0udGFrZSgxMSkgfSwKICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoIuaJi+acuuWPtyIpIH0sCiAgICAgICAgICAgIGtleWJvYXJkT3B0aW9ucyA9IEtleWJvYXJkT3B0aW9ucyhrZXlib2FyZFR5cGUgPSBLZXlib2FyZFR5cGUuUGhvbmUpLAogICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTIuZHApCiAgICAgICAgKQoKICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKCiAgICAgICAgaWYgKGlzUmVnaXN0ZXJNb2RlKSB7CiAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgdmFsdWUgPSBuaWNrbmFtZSwKICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IG5pY2tuYW1lID0gaXQudGFrZSgxMikgfSwKICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KCLmmLXnp7AiKSB9LAogICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTIuZHApCiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCiAgICAgICAgICAgIFJvdyhNb2RpZmllci5maWxsTWF4V2lkdGgoKSwgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgIEZpbHRlckNoaXAoCiAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWQgPSBnZW5kZXIgPT0gIkZFTUFMRSIsCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgZ2VuZGVyID0gIkZFTUFMRSIgfSwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dCgi5oiR5piv5aWz55SfIikgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIEZpbHRlckNoaXAoCiAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWQgPSBnZW5kZXIgPT0gIk1BTEUiLAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IGdlbmRlciA9ICJNQUxFIiB9LAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KCLmiJHmmK/nlLfnlJ8iKSB9LAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMTIuZHApKQogICAgICAgIH0KCiAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgIHZhbHVlID0gcGFzc3dvcmQsCiAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IHBhc3N3b3JkID0gaXQgfSwKICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoIuWvhueggSIpIH0sCiAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlLAogICAgICAgICAgICB2aXN1YWxUcmFuc2Zvcm1hdGlvbiA9IGlmIChzaG93UGFzc3dvcmQpIFZpc3VhbFRyYW5zZm9ybWF0aW9uLk5vbmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIFBhc3N3b3JkVmlzdWFsVHJhbnNmb3JtYXRpb24oKSwKICAgICAgICAgICAga2V5Ym9hcmRPcHRpb25zID0gS2V5Ym9hcmRPcHRpb25zKGtleWJvYXJkVHlwZSA9IEtleWJvYXJkVHlwZS5QYXNzd29yZCksCiAgICAgICAgICAgIHRyYWlsaW5nSWNvbiA9IHsKICAgICAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IHsgc2hvd1Bhc3N3b3JkID0gIXNob3dQYXNzd29yZCB9KSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dChpZiAoc2hvd1Bhc3N3b3JkKSAi6ZqQ6JePIiBlbHNlICLmmL7npLoiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCkKICAgICAgICApCgogICAgICAgIGlmIChpc1JlZ2lzdGVyTW9kZSkgewogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICB2YWx1ZSA9IGNvbmZpcm1QYXNzd29yZCwKICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGNvbmZpcm1QYXNzd29yZCA9IGl0IH0sCiAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dCgi56Gu6K6k5a+G56CBIikgfSwKICAgICAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlLAogICAgICAgICAgICAgICAgdmlzdWFsVHJhbnNmb3JtYXRpb24gPSBQYXNzd29yZFZpc3VhbFRyYW5zZm9ybWF0aW9uKCksCiAgICAgICAgICAgICAgICBrZXlib2FyZE9wdGlvbnMgPSBLZXlib2FyZE9wdGlvbnMoa2V5Ym9hcmRUeXBlID0gS2V5Ym9hcmRUeXBlLlBhc3N3b3JkKSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCkKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgZXJyb3JNc2c/LmxldCB7CiAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMTAuZHApKQogICAgICAgICAgICBUZXh0KGl0LCBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwpCiAgICAgICAgfQoKICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDIwLmRwKSkKCiAgICAgICAgQnV0dG9uKAogICAgICAgICAgICBvbkNsaWNrID0geyBzdWJtaXQoKSB9LAogICAgICAgICAgICBlbmFibGVkID0gIWxvYWRpbmcsCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkuaGVpZ2h0KDUwLmRwKSwKICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTIuZHApCiAgICAgICAgKSB7CiAgICAgICAgICAgIGlmIChsb2FkaW5nKSB7CiAgICAgICAgICAgICAgICBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKAogICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyLnNpemUoMjAuZHApLCBzdHJva2VXaWR0aCA9IDIuZHAsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLndpZHRoKDguZHApKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFRleHQoaWYgKGlzUmVnaXN0ZXJNb2RlKSAi5rOo5YaM5bm26L+b5YWlIiBlbHNlICLnmbvlvZUiKQogICAgICAgIH0KCiAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg0MC5kcCkpCiAgICB9Cn0K
+package com.dating.app.ui.screens
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
+import androidx.compose.ui.unit.dp
+import com.dating.app.data.api.RetrofitClient
+import com.dating.app.data.api.TokenStore
+import kotlinx.coroutines.launch
+
+/**
+ * 注册 / 登录页（未登录时为启动页）
+ *
+ * 后端接口（尚未实现，按 README 约定开发）：
+ *   POST /auth/register  body: {"phone","password","nickname","gender"} → { token, userId, nickname }
+ *   POST /auth/login     body: {"phone","password"}                    → { token, userId, nickname }
+ *
+ * 登录成功后 token 存入 TokenStore（SharedPreferences 持久化），
+ * 之后所有请求由 RetrofitClient 拦截器自动携带 Authorization: Bearer <token>
+ */
+@Composable
+fun LoginScreen(onLoginSuccess: () -> Unit) {
+    val scope = rememberCoroutineScope()
+
+    var isRegisterMode by remember { mutableStateOf(false) }
+    var phone by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
+    var confirmPassword by remember { mutableStateOf("") }
+    var nickname by remember { mutableStateOf("") }
+    var gender by remember { mutableStateOf("FEMALE") }   // 注册时选择
+    var showPassword by remember { mutableStateOf(false) }
+
+    var loading by remember { mutableStateOf(false) }
+    var errorMsg by remember { mutableStateOf<String?>(null) }
+
+    fun submit() {
+        // 前端基础校验
+        if (phone.length < 11) { errorMsg = "请输入 11 位手机号"; return }
+        if (password.length < 6) { errorMsg = "密码至少 6 位"; return }
+        if (isRegisterMode) {
+            if (nickname.isBlank()) { errorMsg = "请填写昵称"; return }
+            if (password != confirmPassword) { errorMsg = "两次密码输入不一致"; return }
+        }
+
+        loading = true
+        errorMsg = null
+        scope.launch {
+            try {
+                val resp = if (isRegisterMode) {
+                    RetrofitClient.api.register(
+                        mapOf(
+                            "phone" to phone,
+                            "password" to password,
+                            "nickname" to nickname,
+                            "gender" to gender
+                        )
+                    )
+                } else {
+                    RetrofitClient.api.login(
+                        mapOf("phone" to phone, "password" to password)
+                    )
+                }
+                val body = resp.body()
+                val data = body?.data
+                when {
+                    resp.isSuccessful && data != null -> {
+                        TokenStore.save(data.token, data.userId, data.nickname)
+                        onLoginSuccess()
+                    }
+                    resp.code() == 401 -> errorMsg = "手机号或密码错误"
+                    resp.code() == 409 -> errorMsg = "该手机号已注册，请直接登录"
+                    else -> errorMsg = if (body?.message.isNullOrBlank())
+                        "请求失败(${resp.code()})" else body!!.message
+                }
+            } catch (e: Exception) {
+                errorMsg = "网络异常：${e.message}"
+            }
+            loading = false
+        }
+    }
+
+    Column(
+        Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(horizontal = 28.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Spacer(Modifier.height(72.dp))
+
+        // Logo 区
+        Surface(
+            shape = RoundedCornerShape(24.dp),
+            color = MaterialTheme.colorScheme.primary,
+            modifier = Modifier.size(72.dp)
+        ) {
+            Box(contentAlignment = Alignment.Center) {
+                Text("缘", color = MaterialTheme.colorScheme.onPrimary,
+                    style = MaterialTheme.typography.headlineLarge)
+            }
+        }
+        Spacer(Modifier.height(12.dp))
+        Text("缘分", style = MaterialTheme.typography.headlineMedium)
+        Text("遇见对的人", style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant)
+
+        Spacer(Modifier.height(32.dp))
+
+        // 登录 / 注册 切换
+        TabRow(
+            selectedTabIndex = if (isRegisterMode) 1 else 0,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Tab(selected = !isRegisterMode, onClick = {
+                isRegisterMode = false; errorMsg = null
+            }, text = { Text("登录") })
+            Tab(selected = isRegisterMode, onClick = {
+                isRegisterMode = true; errorMsg = null
+            }, text = { Text("注册") })
+        }
+
+        Spacer(Modifier.height(20.dp))
+
+        OutlinedTextField(
+            value = phone,
+            onValueChange = { phone = it.filter { c -> c.isDigit() }.take(11) },
+            label = { Text("手机号") },
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone),
+            singleLine = true,
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(12.dp)
+        )
+
+        Spacer(Modifier.height(12.dp))
+
+        if (isRegisterMode) {
+            OutlinedTextField(
+                value = nickname,
+                onValueChange = { nickname = it.take(12) },
+                label = { Text("昵称") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(12.dp)
+            )
+            Spacer(Modifier.height(12.dp))
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FilterChip(
+                    selected = gender == "FEMALE",
+                    onClick = { gender = "FEMALE" },
+                    label = { Text("我是女生") },
+                    modifier = Modifier.weight(1f)
+                )
+                FilterChip(
+                    selected = gender == "MALE",
+                    onClick = { gender = "MALE" },
+                    label = { Text("我是男生") },
+                    modifier = Modifier.weight(1f)
+                )
+            }
+            Spacer(Modifier.height(12.dp))
+        }
+
+        OutlinedTextField(
+            value = password,
+            onValueChange = { password = it },
+            label = { Text("密码") },
+            singleLine = true,
+            visualTransformation = if (showPassword) VisualTransformation.None
+                                   else PasswordVisualTransformation(),
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+            trailingIcon = {
+                TextButton(onClick = { showPassword = !showPassword }) {
+                    Text(if (showPassword) "隐藏" else "显示")
+                }
+            },
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(12.dp)
+        )
+
+        if (isRegisterMode) {
+            Spacer(Modifier.height(12.dp))
+            OutlinedTextField(
+                value = confirmPassword,
+                onValueChange = { confirmPassword = it },
+                label = { Text("确认密码") },
+                singleLine = true,
+                visualTransformation = PasswordVisualTransformation(),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(12.dp)
+            )
+        }
+
+        errorMsg?.let {
+            Spacer(Modifier.height(10.dp))
+            Text(it, color = MaterialTheme.colorScheme.error,
+                style = MaterialTheme.typography.bodySmall)
+        }
+
+        Spacer(Modifier.height(20.dp))
+
+        Button(
+            onClick = { submit() },
+            enabled = !loading,
+            modifier = Modifier.fillMaxWidth().height(50.dp),
+            shape = RoundedCornerShape(12.dp)
+        ) {
+            if (loading) {
+                CircularProgressIndicator(
+                    Modifier.size(20.dp), strokeWidth = 2.dp,
+                    color = MaterialTheme.colorScheme.onPrimary
+                )
+                Spacer(Modifier.width(8.dp))
+            }
+            Text(if (isRegisterMode) "注册并进入" else "登录")
+        }
+
+        Spacer(Modifier.height(40.dp))
+    }
+}

@@ -1,1 +1,60 @@
-cGFja2FnZSBjb20uZGF0aW5nLmFwcC5kYXRhLmFwaQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CgovKioKICog55m75b2V5oCB5a2Y5YKo77yadG9rZW4gKyDnlKjmiLfkv6Hmga/mjIHkuYXljJbliLAgU2hhcmVkUHJlZmVyZW5jZXPjgIIKICog55Sf5ZG95ZGo5pyf77yaCiAqICAgMS4gTWFpbkFjdGl2aXR5Lm9uQ3JlYXRlIOmHjOiwg+eUqCBpbml0KGNvbnRleHQpIOaBouWkjeeZu+W9leaAgQogKiAgIDIuIOeZu+W9lS/ms6jlhozmiJDlip/lkI7osIPnlKggc2F2ZSgpCiAqICAgMy4g5pS25YiwIDQwMSDmiJbnlKjmiLfpgIDlh7rnmbvlvZXml7bosIPnlKggY2xlYXIoKQogKi8Kb2JqZWN0IFRva2VuU3RvcmUgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgUFJFRiA9ICJkYXRpbmdfYXV0aCIKICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9UT0tFTiA9ICJ0b2tlbiIKICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9VU0VSX0lEID0gInVzZXJfaWQiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfTklDS05BTUUgPSAibmlja25hbWUiCgogICAgQFZvbGF0aWxlCiAgICB2YXIgdG9rZW46IFN0cmluZyA9ICIiCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICBAVm9sYXRpbGUKICAgIHZhciB1c2VySWQ6IExvbmcgPSAwTAogICAgICAgIHByaXZhdGUgc2V0CgogICAgQFZvbGF0aWxlCiAgICB2YXIgbmlja25hbWU6IFN0cmluZz8gPSBudWxsCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICBwcml2YXRlIHZhciBwcmVmczogYW5kcm9pZC5jb250ZW50LlNoYXJlZFByZWZlcmVuY2VzPyA9IG51bGwKCiAgICAvKiog5ZyoIEFwcGxpY2F0aW9uL0FjdGl2aXR5IOWIm+W7uuaXtuiwg+eUqOS4gOasoSAqLwogICAgZnVuIGluaXQoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIGlmIChwcmVmcyAhPSBudWxsKSByZXR1cm4KICAgICAgICBwcmVmcyA9IGNvbnRleHQuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoUFJFRiwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCiAgICAgICAgdG9rZW4gPSBwcmVmcz8uZ2V0U3RyaW5nKEtFWV9UT0tFTiwgIiIpID86ICIiCiAgICAgICAgdXNlcklkID0gcHJlZnM/LmdldExvbmcoS0VZX1VTRVJfSUQsIDBMKSA/OiAwTAogICAgICAgIG5pY2tuYW1lID0gcHJlZnM/LmdldFN0cmluZyhLRVlfTklDS05BTUUsIG51bGwpCiAgICB9CgogICAgdmFsIGlzTG9naW46IEJvb2xlYW4gZ2V0KCkgPSB0b2tlbi5pc05vdEJsYW5rKCkKCiAgICBmdW4gc2F2ZShuZXdUb2tlbjogU3RyaW5nLCBuZXdVc2VySWQ6IExvbmcsIG5ld05pY2tuYW1lOiBTdHJpbmc/KSB7CiAgICAgICAgdG9rZW4gPSBuZXdUb2tlbgogICAgICAgIHVzZXJJZCA9IG5ld1VzZXJJZAogICAgICAgIG5pY2tuYW1lID0gbmV3Tmlja25hbWUKICAgICAgICBwcmVmcz8uZWRpdCgpCiAgICAgICAgICAgID8ucHV0U3RyaW5nKEtFWV9UT0tFTiwgbmV3VG9rZW4pCiAgICAgICAgICAgID8ucHV0TG9uZyhLRVlfVVNFUl9JRCwgbmV3VXNlcklkKQogICAgICAgICAgICA/LnB1dFN0cmluZyhLRVlfTklDS05BTUUsIG5ld05pY2tuYW1lKQogICAgICAgICAgICA/LmFwcGx5KCkKICAgIH0KCiAgICBmdW4gY2xlYXIoKSB7CiAgICAgICAgdG9rZW4gPSAiIgogICAgICAgIHVzZXJJZCA9IDBMCiAgICAgICAgbmlja25hbWUgPSBudWxsCiAgICAgICAgcHJlZnM/LmVkaXQoKT8uY2xlYXIoKT8uYXBwbHkoKQogICAgfQp9Cg==
+package com.dating.app.data.api
+
+import android.content.Context
+
+/**
+ * 登录态存储：token + 用户信息持久化到 SharedPreferences。
+ * 生命周期：
+ *   1. MainActivity.onCreate 里调用 init(context) 恢复登录态
+ *   2. 登录/注册成功后调用 save()
+ *   3. 收到 401 或用户退出登录时调用 clear()
+ */
+object TokenStore {
+    private const val PREF = "dating_auth"
+    private const val KEY_TOKEN = "token"
+    private const val KEY_USER_ID = "user_id"
+    private const val KEY_NICKNAME = "nickname"
+
+    @Volatile
+    var token: String = ""
+        private set
+
+    @Volatile
+    var userId: Long = 0L
+        private set
+
+    @Volatile
+    var nickname: String? = null
+        private set
+
+    private var prefs: android.content.SharedPreferences? = null
+
+    /** 在 Application/Activity 创建时调用一次 */
+    fun init(context: Context) {
+        if (prefs != null) return
+        prefs = context.getSharedPreferences(PREF, Context.MODE_PRIVATE)
+        token = prefs?.getString(KEY_TOKEN, "") ?: ""
+        userId = prefs?.getLong(KEY_USER_ID, 0L) ?: 0L
+        nickname = prefs?.getString(KEY_NICKNAME, null)
+    }
+
+    val isLogin: Boolean get() = token.isNotBlank()
+
+    fun save(newToken: String, newUserId: Long, newNickname: String?) {
+        token = newToken
+        userId = newUserId
+        nickname = newNickname
+        prefs?.edit()
+            ?.putString(KEY_TOKEN, newToken)
+            ?.putLong(KEY_USER_ID, newUserId)
+            ?.putString(KEY_NICKNAME, newNickname)
+            ?.apply()
+    }
+
+    fun clear() {
+        token = ""
+        userId = 0L
+        nickname = null
+        prefs?.edit()?.clear()?.apply()
+    }
+}
